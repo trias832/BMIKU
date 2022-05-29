@@ -1,0 +1,420 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.navbar{
+    background-color: #4851EC;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+ 
+}
+a{
+    text-decoration: none;
+}
+.nav-list{
+    list-style-type: none;
+   
+   
+}
+.nav-list,.list-item,a{
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+}
+.navbar a:hover{
+    color: #fa7770;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+   
+}
+.menu-line{
+    width: 20px;
+    height: 3px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+.menu{
+    display: none;
+}
+ 
+ 
+.navbar-sticky{
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+ 
+      .hal{height: 1200px;
+ 
+        }
+        .gbr{
+            width: 100%;
+        }
+ 
+ 
+.row-hitung{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.colum-text,.colum-gambar{
+    flex-basis: 50%;
+}
+.colum-gambar{
+    text-align: center;
+    padding: 5%;
+}
+.colum-text{
+
+    text-align: left;
+    padding: 10% 5%;
+ 
+}
+.text-hitung {
+ 
+    padding: 10% 0;
+}
+.transisi{
+    height: 40px;
+}
+.row-form{
+    display: flex;
+    flex-direction: row;
+   
+}
+.colum-form {
+    width: 50%;
+    padding: 5%;
+}
+form.formbmi {
+    text-align: center;
+}
+ 
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.colum-form {
+    width: 50%;
+    padding: 5%;
+}
+.inputan::-webkit-input-placeholder{
+    color: #4851EC;
+}
+input[type="text"]:focus{
+    outline-color: #4851EC;
+}
+input.inputan {
+    width: 80%;
+    margin: 10px;
+    height: 40px;
+    border-radius: 40px;
+    border: 1px solid #4851EC;
+    background-color: unset !important;
+    padding: 12px 24px;
+    color: #4851EC;
+
+}
+.button.button {
+    margin-top: 5%;
+    width: 150px;
+    height: 40px;
+    background:#fa7770;
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    border-radius: 25px;
+
+}
+.button.button:hover {
+            color: #fff;
+            text-decoration: none;
+            box-shadow: 2px 5px 9px 4px #849ef7;
+}         
+         
+.cointainer-hitung {
+    text-align: center;
+}
+.flex.cointainer-hitung {
+    background-color: #DDE8FE;
+    margin-top: -10px;
+}
+#infobmi{
+    text-align: center;
+}
+.info-satu, .info-dua, .info-tiga {
+    width: 275px;
+    vertical-align: top;
+    display: inline-block;
+    text-align: justify;
+    margin: 5%;
+    padding: 5%;
+    box-shadow: 3px 2px 15px 4px #849ef7;
+    border-radius: 20px
+}
+ .container-info{
+    text-align: center;
+}
+img.rumus {
+    width: 180px;
+    height: 70px;
+    margin: 10px;
+}
+.flex-row-seputar{
+    display: flex;
+    margin-bottom: 10%;
+ 
+}
+.flex-colseputar1{
+    flex-basis: 80%;
+}
+.flex-colseputar-button{
+    flex-basis: 20%;
+}
+img#myButton-dua,img#myButton-satu,img#myButton-tiga {
+    width: 30px;
+}
+.flex-colseputar1 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+button#button-dua {
+    border: none;
+    background-color: white;
+}
+#more,#more-dua, #more-tiga{
+    display: none;
+}
+.info-satu, .info-dua, .info-tiga {
+    padding: 3%;
+}
+aside{
+    margin-bottom: 10%;
+}
+.img-identitas{
+    width: 300px;
+}
+ 
+.row-identitas{
+   
+    
+    box-shadow: 3px 2px 15px 4px #849ef7;
+    background: linear-gradient(to left, #DDE8FE,30%, #4851EC);
+    border-radius: 20px;
+    width: 400px;
+}
+.row-image-identitas{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   
+}
+   
+.row-text-identitas.identitas-nama {
+    margin-top: 10%;
+}
+.row-text-identitas.identitas-sepatu {
+    margin-bottom: 10%;
+}
+.row-text-identitas{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ 
+}
+.detail{
+    margin-top: 10px;
+}
+.row-text-detail{
+  
+    padding-top: 30px;
+ 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+ 
+}
+.container-identitas{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 5%;
+}
+.text-identitas{
+    margin: 10% 0;
+}
+
+footer{
+    background-color: #4851EC;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+.hasil-text{
+    text-align: center;
+}
+.colum-hasil {
+    width: 50%;
+    padding: 5%;
+}
+.hasil-kategori{
+    text-align: center;
+    padding: 10px;
+}
+.saran{
+    text-align: center;
+    padding-top: 10px;
+}
+.detail-saran{
+    text-align: center;
+}
+.hasil-hitungbmi {
+    width: 80%;
+    vertical-align: top;
+    display: inline-block;
+    text-align: justify;
+    margin: 5%;
+    padding: 5%;
+    box-shadow: 3px 2px 15px 4px #849ef7;
+    border-radius: 20px
+}
+#hasil-hitungbmi{
+    display: none;
+}
+h1.text.bmi {
+    font-size: 2em;
+}
+#pengantar{
+    width: 80%;
+    font-size: 1.5em;
+}
+.judul{
+    font-size: 1.5em;
+}
+@media screen and (max-width: 600px){
+    .menu{
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+    .navbar{
+        flex-direction: column;
+       
+    }
+    .nav-list,.list-item,a{
+    display: block;
+    padding: 5px 10px;
+    color: white;
+    text-align: center;
+   
+   
+}
+.nav-list{
+    list-style-type: none;
+    width: 100%;
+    display: none;
+}
+.logo{
+    width: 100%;
+    margin-top: 5px;
+}
+.list-item{
+     border-top: 1px solid white;
+}
+#logo{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.active{
+    display: block;
+}
+.row-hitung{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.colum-text{
+    
+    text-align: left;
+    padding: 0 10%;
+ 
+}
+.transisi{
+    height: 80px;
+}
+.row-form {
+    display: flex;
+    flex-direction: column;
+}
+.colum-form {
+    width: 100%;
+    padding: 10%;
+}
+.colum-form{
+    padding-top: 0;
+}
+ 
+.flex.cointainer-hitung {
+    background-color: #DDE8FE;
+}
+.info-satu, .info-dua, .info-tiga{
+    display: blok;
+    margin-top: 20%;
+    width: 270px;
+}
+div#more-tiga {
+    padding: 15px;
+}
+img.rumus {
+    width: 220px;
+}
+ul.kategori {
+    padding: 10%;
+}
+.img-identitas{
+    width: 250px;
+}
+
+.row-identitas{
+ width: 280px;  
+}
+
+.container-identitas{
+    margin-top: 20%;
+}
+.colum-hasil {
+    width: 100%;
+    padding: 5%;
+}
+.waves-bawah {
+    margin-top: -5px;
+}
+#pengantar {
+    width: 90%;
+
+}
+.hasil-hitungbmi {
+    width: 90%;
+}
+ 
+}
